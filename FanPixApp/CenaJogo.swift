@@ -162,14 +162,14 @@ class CenaJogo: SKScene, SKPhysicsContactDelegate {
         botaoPausa = SKSpriteNode (imageNamed: "botaoPausa")
         botaoPausa.texture!.filteringMode = .nearest
         botaoPausa.setScale(1.3)
-        botaoPausa.position = CGPoint(x: self.size.width-16, y: self.size.height-16)
+        botaoPausa.position = CGPoint(x: self.size.width-30, y: self.size.height-30)
         botaoPausa.name = "Botao Pausa"
         
         distanciaLabel = SKLabelNode()
         distanciaLabel.fontName = "True Crimes"
         distanciaLabel.fontSize = 17
         distanciaLabel.text = "Distancia: \(distanciaPercorrida) m."
-        distanciaLabel.position = CGPoint(x: 10, y: self.frame.size.height-30)
+        distanciaLabel.position = CGPoint(x: 10, y: self.frame.size.height-40)
         distanciaLabel.horizontalAlignmentMode = .left
         distanciaLabel.zPosition = 11
         
