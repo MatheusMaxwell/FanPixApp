@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A914716E1F1E7691009853E5 /* somMorcego.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A914716D1F1E7691009853E5 /* somMorcego.mp3 */; };
+		A94BF8621F3D1DA9004177EE /* morcegoVirado4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF85E1F3D1DA9004177EE /* morcegoVirado4@2x.png */; };
+		A94BF8631F3D1DA9004177EE /* morcegoVirado3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF85F1F3D1DA9004177EE /* morcegoVirado3@2x.png */; };
+		A94BF8641F3D1DA9004177EE /* morcegoVirado2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF8601F3D1DA9004177EE /* morcegoVirado2@2x.png */; };
+		A94BF8651F3D1DA9004177EE /* morcegoVirado1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF8611F3D1DA9004177EE /* morcegoVirado1@2x.png */; };
+		A94BF8671F3D595D004177EE /* estrela@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF8661F3D595D004177EE /* estrela@2x.png */; };
+		A94BF8771F3F5FE0004177EE /* death1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF8741F3F5FE0004177EE /* death1@2x.png */; };
+		A94BF8781F3F5FE0004177EE /* death2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF8751F3F5FE0004177EE /* death2@2x.png */; };
+		A94BF8791F3F5FE0004177EE /* death3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF8761F3F5FE0004177EE /* death3@2x.png */; };
+		A94BF87B1F3F61CA004177EE /* MenuPersonagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BF87A1F3F61CA004177EE /* MenuPersonagens.swift */; };
+		A94BF87D1F3F7083004177EE /* botaoPersonagens@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94BF87C1F3F7083004177EE /* botaoPersonagens@2x.png */; };
+		A971E3F91EFF6E21005AE1BA /* fundoInicio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A971E3F81EFF6E21005AE1BA /* fundoInicio@2x.png */; };
+		A97C194D1F27B63E00900912 /* botaoVoltar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97C194C1F27B63E00900912 /* botaoVoltar@2x.png */; };
+		A97C194F1F27B87900900912 /* botaoSair@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97C194E1F27B87900900912 /* botaoSair@2x.png */; };
+		A97C19531F27C0EC00900912 /* botaoIniciar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97C19521F27C0EC00900912 /* botaoIniciar@2x.png */; };
+		A97C19551F27C16700900912 /* botaoReplay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97C19541F27C16700900912 /* botaoReplay@2x.png */; };
+		A97C19591F27C44000900912 /* botaoPausa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97C19581F27C44000900912 /* botaoPausa@2x.png */; };
+		A9AFE29B1F08AD4C00F5FADC /* bloco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9AFE29A1F08AD4C00F5FADC /* bloco@2x.png */; };
+		A9C39D0E1EE1F37B00419D45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C39D0D1EE1F37B00419D45 /* AppDelegate.swift */; };
+		A9C39D121EE1F37B00419D45 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D111EE1F37B00419D45 /* Actions.sks */; };
+		A9C39D161EE1F37B00419D45 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C39D151EE1F37B00419D45 /* GameViewController.swift */; };
+		A9C39D191EE1F37B00419D45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D171EE1F37B00419D45 /* Main.storyboard */; };
+		A9C39D1B1EE1F37B00419D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D1A1EE1F37B00419D45 /* Assets.xcassets */; };
+		A9C39D1E1EE1F37B00419D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D1C1EE1F37B00419D45 /* LaunchScreen.storyboard */; };
+		A9C39D291EE1F37B00419D45 /* FanPixAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C39D281EE1F37B00419D45 /* FanPixAppTests.swift */; };
+		A9C39D341EE1F37B00419D45 /* FanPixAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C39D331EE1F37B00419D45 /* FanPixAppUITests.swift */; };
+		A9C39D421EE1F42000419D45 /* MenuInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C39D411EE1F42000419D45 /* MenuInicio.swift */; };
+		A9C39D441EE1F43200419D45 /* CenaJogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C39D431EE1F43200419D45 /* CenaJogo.swift */; };
+		A9C39D7E1EE3009A00419D45 /* arvoreBaixo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D6C1EE3009A00419D45 /* arvoreBaixo@2x.png */; };
+		A9C39D801EE3009A00419D45 /* botaoInicio.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D6E1EE3009A00419D45 /* botaoInicio.png */; };
+		A9C39D831EE3009A00419D45 /* fantasminha1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D711EE3009A00419D45 /* fantasminha1@2x.png */; };
+		A9C39D841EE3009A00419D45 /* fantasminha2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D721EE3009A00419D45 /* fantasminha2@2x.png */; };
+		A9C39D851EE3009A00419D45 /* fantasminha3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D731EE3009A00419D45 /* fantasminha3@2x.png */; };
+		A9C39D861EE3009A00419D45 /* fantasminhaParado@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D741EE3009A00419D45 /* fantasminhaParado@2x.png */; };
+		A9C39D8B1EE3009A00419D45 /* morcego1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D791EE3009A00419D45 /* morcego1@2x.png */; };
+		A9C39D8C1EE3009A00419D45 /* morcego2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D7A1EE3009A00419D45 /* morcego2@2x.png */; };
+		A9C39D8D1EE3009A00419D45 /* morcego3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D7B1EE3009A00419D45 /* morcego3@2x.png */; };
+		A9C39D8E1EE3009A00419D45 /* morcego4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D7C1EE3009A00419D45 /* morcego4@2x.png */; };
+		A9C39D8F1EE3009A00419D45 /* true-crimes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D7D1EE3009A00419D45 /* true-crimes.ttf */; };
+		A9C39D911EE328DF00419D45 /* fundo_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D901EE328DF00419D45 /* fundo_1@2x.png */; };
+		A9C39D931EE328E500419D45 /* fundo_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D921EE328E500419D45 /* fundo_2@2x.png */; };
+		A9C39D951EE328F000419D45 /* fundo_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C39D941EE328F000419D45 /* fundo_3@2x.png */; };
+		A9D2646B1F10A9F7006892C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D2646A1F10A9F7006892C0 /* Default-568h@2x.png */; };
+		A9D264741F113E06006892C0 /* Colisao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9D2646E1F113E06006892C0 /* Colisao.mp3 */; };
+		A9D264751F113E06006892C0 /* Jump3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9D2646F1F113E06006892C0 /* Jump3.mp3 */; };
+		A9D264761F113E06006892C0 /* musicaIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9D264701F113E06006892C0 /* musicaIntro.mp3 */; };
+		A9D264771F113E06006892C0 /* somHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9D264711F113E06006892C0 /* somHit.mp3 */; };
+		A9D264781F113E06006892C0 /* somMorde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9D264721F113E06006892C0 /* somMorde.mp3 */; };
+		A9D2647A1F114133006892C0 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D264791F114133006892C0 /* SKTAudio.swift */; };
+		A9D2647C1F134413006892C0 /* Game Over 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9D2647B1F134413006892C0 /* Game Over 01.mp3 */; };
+		A9D2647E1F134636006892C0 /* somClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9D2647D1F134636006892C0 /* somClick.mp3 */; };
+		A9D264801F13497E006892C0 /* Dance Monster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9D2647F1F13497E006892C0 /* Dance Monster.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9C39D251EE1F37B00419D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C39D021EE1F37B00419D45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C39D091EE1F37B00419D45;
+			remoteInfo = FanPixApp;
+		};
+		A9C39D301EE1F37B00419D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C39D021EE1F37B00419D45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C39D091EE1F37B00419D45;
+			remoteInfo = FanPixApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A914716D1F1E7691009853E5 /* somMorcego.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = somMorcego.mp3; sourceTree = "<group>"; };
+		A94BF85E1F3D1DA9004177EE /* morcegoVirado4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morcegoVirado4@2x.png"; sourceTree = "<group>"; };
+		A94BF85F1F3D1DA9004177EE /* morcegoVirado3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morcegoVirado3@2x.png"; sourceTree = "<group>"; };
+		A94BF8601F3D1DA9004177EE /* morcegoVirado2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morcegoVirado2@2x.png"; sourceTree = "<group>"; };
+		A94BF8611F3D1DA9004177EE /* morcegoVirado1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morcegoVirado1@2x.png"; sourceTree = "<group>"; };
+		A94BF8661F3D595D004177EE /* estrela@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estrela@2x.png"; sourceTree = "<group>"; };
+		A94BF8741F3F5FE0004177EE /* death1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "death1@2x.png"; sourceTree = "<group>"; };
+		A94BF8751F3F5FE0004177EE /* death2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "death2@2x.png"; sourceTree = "<group>"; };
+		A94BF8761F3F5FE0004177EE /* death3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "death3@2x.png"; sourceTree = "<group>"; };
+		A94BF87A1F3F61CA004177EE /* MenuPersonagens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPersonagens.swift; sourceTree = "<group>"; };
+		A94BF87C1F3F7083004177EE /* botaoPersonagens@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoPersonagens@2x.png"; sourceTree = "<group>"; };
+		A971E3F81EFF6E21005AE1BA /* fundoInicio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoInicio@2x.png"; sourceTree = "<group>"; };
+		A97C194C1F27B63E00900912 /* botaoVoltar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoVoltar@2x.png"; sourceTree = "<group>"; };
+		A97C194E1F27B87900900912 /* botaoSair@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoSair@2x.png"; sourceTree = "<group>"; };
+		A97C19521F27C0EC00900912 /* botaoIniciar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoIniciar@2x.png"; sourceTree = "<group>"; };
+		A97C19541F27C16700900912 /* botaoReplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoReplay@2x.png"; sourceTree = "<group>"; };
+		A97C19581F27C44000900912 /* botaoPausa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoPausa@2x.png"; sourceTree = "<group>"; };
+		A9AFE29A1F08AD4C00F5FADC /* bloco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bloco@2x.png"; sourceTree = "<group>"; };
+		A9C39D0A1EE1F37B00419D45 /* FanPixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanPixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C39D0D1EE1F37B00419D45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9C39D111EE1F37B00419D45 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A9C39D151EE1F37B00419D45 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A9C39D181EE1F37B00419D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9C39D1A1EE1F37B00419D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9C39D1D1EE1F37B00419D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9C39D1F1EE1F37B00419D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C39D241EE1F37B00419D45 /* FanPixAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanPixAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C39D281EE1F37B00419D45 /* FanPixAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanPixAppTests.swift; sourceTree = "<group>"; };
+		A9C39D2A1EE1F37B00419D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C39D2F1EE1F37B00419D45 /* FanPixAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanPixAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C39D331EE1F37B00419D45 /* FanPixAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanPixAppUITests.swift; sourceTree = "<group>"; };
+		A9C39D351EE1F37B00419D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C39D411EE1F42000419D45 /* MenuInicio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuInicio.swift; sourceTree = "<group>"; };
+		A9C39D431EE1F43200419D45 /* CenaJogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenaJogo.swift; sourceTree = "<group>"; };
+		A9C39D661EE27AF300419D45 /* true-crimes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "true-crimes.ttf"; path = "../true-crimes.ttf"; sourceTree = "<group>"; };
+		A9C39D6C1EE3009A00419D45 /* arvoreBaixo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arvoreBaixo@2x.png"; sourceTree = "<group>"; };
+		A9C39D6E1EE3009A00419D45 /* botaoInicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaoInicio.png; sourceTree = "<group>"; };
+		A9C39D711EE3009A00419D45 /* fantasminha1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fantasminha1@2x.png"; sourceTree = "<group>"; };
+		A9C39D721EE3009A00419D45 /* fantasminha2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fantasminha2@2x.png"; sourceTree = "<group>"; };
+		A9C39D731EE3009A00419D45 /* fantasminha3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fantasminha3@2x.png"; sourceTree = "<group>"; };
+		A9C39D741EE3009A00419D45 /* fantasminhaParado@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fantasminhaParado@2x.png"; sourceTree = "<group>"; };
+		A9C39D791EE3009A00419D45 /* morcego1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morcego1@2x.png"; sourceTree = "<group>"; };
+		A9C39D7A1EE3009A00419D45 /* morcego2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morcego2@2x.png"; sourceTree = "<group>"; };
+		A9C39D7B1EE3009A00419D45 /* morcego3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morcego3@2x.png"; sourceTree = "<group>"; };
+		A9C39D7C1EE3009A00419D45 /* morcego4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morcego4@2x.png"; sourceTree = "<group>"; };
+		A9C39D7D1EE3009A00419D45 /* true-crimes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "true-crimes.ttf"; sourceTree = "<group>"; };
+		A9C39D901EE328DF00419D45 /* fundo_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundo_1@2x.png"; sourceTree = "<group>"; };
+		A9C39D921EE328E500419D45 /* fundo_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundo_2@2x.png"; sourceTree = "<group>"; };
+		A9C39D941EE328F000419D45 /* fundo_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundo_3@2x.png"; sourceTree = "<group>"; };
+		A9D2646A1F10A9F7006892C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9D2646E1F113E06006892C0 /* Colisao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Colisao.mp3; sourceTree = "<group>"; };
+		A9D2646F1F113E06006892C0 /* Jump3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jump3.mp3; sourceTree = "<group>"; };
+		A9D264701F113E06006892C0 /* musicaIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicaIntro.mp3; sourceTree = "<group>"; };
+		A9D264711F113E06006892C0 /* somHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = somHit.mp3; sourceTree = "<group>"; };
+		A9D264721F113E06006892C0 /* somMorde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = somMorde.mp3; sourceTree = "<group>"; };
+		A9D264791F114133006892C0 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		A9D2647B1F134413006892C0 /* Game Over 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Game Over 01.mp3"; sourceTree = "<group>"; };
+		A9D2647D1F134636006892C0 /* somClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = somClick.mp3; sourceTree = "<group>"; };
+		A9D2647F1F13497E006892C0 /* Dance Monster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dance Monster.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C39D071EE1F37B00419D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C39D211EE1F37B00419D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C39D2C1EE1F37B00419D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C39D011EE1F37B00419D45 = {
+			isa = PBXGroup;
+			children = (
+				A9C39D0C1EE1F37B00419D45 /* FanPixApp */,
+				A9C39D271EE1F37B00419D45 /* FanPixAppTests */,
+				A9C39D321EE1F37B00419D45 /* FanPixAppUITests */,
+				A9C39D0B1EE1F37B00419D45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C39D0B1EE1F37B00419D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C39D0A1EE1F37B00419D45 /* FanPixApp.app */,
+				A9C39D241EE1F37B00419D45 /* FanPixAppTests.xctest */,
+				A9C39D2F1EE1F37B00419D45 /* FanPixAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C39D0C1EE1F37B00419D45 /* FanPixApp */ = {
+			isa = PBXGroup;
+			children = (
+				A9D264791F114133006892C0 /* SKTAudio.swift */,
+				A9D2646C1F113E06006892C0 /* Sons */,
+				A9D2646A1F10A9F7006892C0 /* Default-568h@2x.png */,
+				A9C39D6B1EE3009A00419D45 /* graficos Fanpix */,
+				A9C39D661EE27AF300419D45 /* true-crimes.ttf */,
+				A9C39D0D1EE1F37B00419D45 /* AppDelegate.swift */,
+				A9C39D111EE1F37B00419D45 /* Actions.sks */,
+				A9C39D151EE1F37B00419D45 /* GameViewController.swift */,
+				A9C39D171EE1F37B00419D45 /* Main.storyboard */,
+				A9C39D1A1EE1F37B00419D45 /* Assets.xcassets */,
+				A9C39D1C1EE1F37B00419D45 /* LaunchScreen.storyboard */,
+				A9C39D1F1EE1F37B00419D45 /* Info.plist */,
+				A9C39D411EE1F42000419D45 /* MenuInicio.swift */,
+				A9C39D431EE1F43200419D45 /* CenaJogo.swift */,
+				A94BF87A1F3F61CA004177EE /* MenuPersonagens.swift */,
+			);
+			path = FanPixApp;
+			sourceTree = "<group>";
+		};
+		A9C39D271EE1F37B00419D45 /* FanPixAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C39D281EE1F37B00419D45 /* FanPixAppTests.swift */,
+				A9C39D2A1EE1F37B00419D45 /* Info.plist */,
+			);
+			path = FanPixAppTests;
+			sourceTree = "<group>";
+		};
+		A9C39D321EE1F37B00419D45 /* FanPixAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C39D331EE1F37B00419D45 /* FanPixAppUITests.swift */,
+				A9C39D351EE1F37B00419D45 /* Info.plist */,
+			);
+			path = FanPixAppUITests;
+			sourceTree = "<group>";
+		};
+		A9C39D6B1EE3009A00419D45 /* graficos Fanpix */ = {
+			isa = PBXGroup;
+			children = (
+				A94BF87C1F3F7083004177EE /* botaoPersonagens@2x.png */,
+				A94BF8741F3F5FE0004177EE /* death1@2x.png */,
+				A94BF8751F3F5FE0004177EE /* death2@2x.png */,
+				A94BF8761F3F5FE0004177EE /* death3@2x.png */,
+				A94BF8661F3D595D004177EE /* estrela@2x.png */,
+				A94BF85E1F3D1DA9004177EE /* morcegoVirado4@2x.png */,
+				A94BF85F1F3D1DA9004177EE /* morcegoVirado3@2x.png */,
+				A94BF8601F3D1DA9004177EE /* morcegoVirado2@2x.png */,
+				A94BF8611F3D1DA9004177EE /* morcegoVirado1@2x.png */,
+				A97C19581F27C44000900912 /* botaoPausa@2x.png */,
+				A97C19541F27C16700900912 /* botaoReplay@2x.png */,
+				A97C19521F27C0EC00900912 /* botaoIniciar@2x.png */,
+				A97C194E1F27B87900900912 /* botaoSair@2x.png */,
+				A97C194C1F27B63E00900912 /* botaoVoltar@2x.png */,
+				A9AFE29A1F08AD4C00F5FADC /* bloco@2x.png */,
+				A9C39D6C1EE3009A00419D45 /* arvoreBaixo@2x.png */,
+				A9C39D6E1EE3009A00419D45 /* botaoInicio.png */,
+				A9C39D711EE3009A00419D45 /* fantasminha1@2x.png */,
+				A9C39D721EE3009A00419D45 /* fantasminha2@2x.png */,
+				A9C39D731EE3009A00419D45 /* fantasminha3@2x.png */,
+				A9C39D741EE3009A00419D45 /* fantasminhaParado@2x.png */,
+				A9C39D901EE328DF00419D45 /* fundo_1@2x.png */,
+				A9C39D921EE328E500419D45 /* fundo_2@2x.png */,
+				A9C39D941EE328F000419D45 /* fundo_3@2x.png */,
+				A971E3F81EFF6E21005AE1BA /* fundoInicio@2x.png */,
+				A9C39D791EE3009A00419D45 /* morcego1@2x.png */,
+				A9C39D7A1EE3009A00419D45 /* morcego2@2x.png */,
+				A9C39D7B1EE3009A00419D45 /* morcego3@2x.png */,
+				A9C39D7C1EE3009A00419D45 /* morcego4@2x.png */,
+				A9C39D7D1EE3009A00419D45 /* true-crimes.ttf */,
+			);
+			path = "graficos Fanpix";
+			sourceTree = "<group>";
+		};
+		A9D2646C1F113E06006892C0 /* Sons */ = {
+			isa = PBXGroup;
+			children = (
+				A914716D1F1E7691009853E5 /* somMorcego.mp3 */,
+				A9D2647F1F13497E006892C0 /* Dance Monster.mp3 */,
+				A9D2647D1F134636006892C0 /* somClick.mp3 */,
+				A9D2647B1F134413006892C0 /* Game Over 01.mp3 */,
+				A9D2646E1F113E06006892C0 /* Colisao.mp3 */,
+				A9D2646F1F113E06006892C0 /* Jump3.mp3 */,
+				A9D264701F113E06006892C0 /* musicaIntro.mp3 */,
+				A9D264711F113E06006892C0 /* somHit.mp3 */,
+				A9D264721F113E06006892C0 /* somMorde.mp3 */,
+			);
+			path = Sons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C39D091EE1F37B00419D45 /* FanPixApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C39D381EE1F37B00419D45 /* Build configuration list for PBXNativeTarget "FanPixApp" */;
+			buildPhases = (
+				A9C39D061EE1F37B00419D45 /* Sources */,
+				A9C39D071EE1F37B00419D45 /* Frameworks */,
+				A9C39D081EE1F37B00419D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanPixApp;
+			productName = FanPixApp;
+			productReference = A9C39D0A1EE1F37B00419D45 /* FanPixApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9C39D231EE1F37B00419D45 /* FanPixAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C39D3B1EE1F37B00419D45 /* Build configuration list for PBXNativeTarget "FanPixAppTests" */;
+			buildPhases = (
+				A9C39D201EE1F37B00419D45 /* Sources */,
+				A9C39D211EE1F37B00419D45 /* Frameworks */,
+				A9C39D221EE1F37B00419D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C39D261EE1F37B00419D45 /* PBXTargetDependency */,
+			);
+			name = FanPixAppTests;
+			productName = FanPixAppTests;
+			productReference = A9C39D241EE1F37B00419D45 /* FanPixAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9C39D2E1EE1F37B00419D45 /* FanPixAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C39D3E1EE1F37B00419D45 /* Build configuration list for PBXNativeTarget "FanPixAppUITests" */;
+			buildPhases = (
+				A9C39D2B1EE1F37B00419D45 /* Sources */,
+				A9C39D2C1EE1F37B00419D45 /* Frameworks */,
+				A9C39D2D1EE1F37B00419D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C39D311EE1F37B00419D45 /* PBXTargetDependency */,
+			);
+			name = FanPixAppUITests;
+			productName = FanPixAppUITests;
+			productReference = A9C39D2F1EE1F37B00419D45 /* FanPixAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C39D021EE1F37B00419D45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = maxnewsoftware;
+				TargetAttributes = {
+					A9C39D091EE1F37B00419D45 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H2TX86L7J5;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					A9C39D231EE1F37B00419D45 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H2TX86L7J5;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9C39D091EE1F37B00419D45;
+					};
+					A9C39D2E1EE1F37B00419D45 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H2TX86L7J5;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9C39D091EE1F37B00419D45;
+					};
+				};
+			};
+			buildConfigurationList = A9C39D051EE1F37B00419D45 /* Build configuration list for PBXProject "FanPixApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9C39D011EE1F37B00419D45;
+			productRefGroup = A9C39D0B1EE1F37B00419D45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C39D091EE1F37B00419D45 /* FanPixApp */,
+				A9C39D231EE1F37B00419D45 /* FanPixAppTests */,
+				A9C39D2E1EE1F37B00419D45 /* FanPixAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C39D081EE1F37B00419D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97C194D1F27B63E00900912 /* botaoVoltar@2x.png in Resources */,
+				A9C39D951EE328F000419D45 /* fundo_3@2x.png in Resources */,
+				A9C39D8C1EE3009A00419D45 /* morcego2@2x.png in Resources */,
+				A94BF8671F3D595D004177EE /* estrela@2x.png in Resources */,
+				A9C39D931EE328E500419D45 /* fundo_2@2x.png in Resources */,
+				A9C39D8D1EE3009A00419D45 /* morcego3@2x.png in Resources */,
+				A9D2646B1F10A9F7006892C0 /* Default-568h@2x.png in Resources */,
+				A9C39D8F1EE3009A00419D45 /* true-crimes.ttf in Resources */,
+				A9C39D831EE3009A00419D45 /* fantasminha1@2x.png in Resources */,
+				A94BF8781F3F5FE0004177EE /* death2@2x.png in Resources */,
+				A94BF8631F3D1DA9004177EE /* morcegoVirado3@2x.png in Resources */,
+				A9C39D191EE1F37B00419D45 /* Main.storyboard in Resources */,
+				A9D264761F113E06006892C0 /* musicaIntro.mp3 in Resources */,
+				A9C39D1B1EE1F37B00419D45 /* Assets.xcassets in Resources */,
+				A9C39D8E1EE3009A00419D45 /* morcego4@2x.png in Resources */,
+				A9AFE29B1F08AD4C00F5FADC /* bloco@2x.png in Resources */,
+				A9C39D851EE3009A00419D45 /* fantasminha3@2x.png in Resources */,
+				A9C39D1E1EE1F37B00419D45 /* LaunchScreen.storyboard in Resources */,
+				A9C39D911EE328DF00419D45 /* fundo_1@2x.png in Resources */,
+				A9D264801F13497E006892C0 /* Dance Monster.mp3 in Resources */,
+				A9D264771F113E06006892C0 /* somHit.mp3 in Resources */,
+				A94BF8641F3D1DA9004177EE /* morcegoVirado2@2x.png in Resources */,
+				A97C19531F27C0EC00900912 /* botaoIniciar@2x.png in Resources */,
+				A9C39D801EE3009A00419D45 /* botaoInicio.png in Resources */,
+				A971E3F91EFF6E21005AE1BA /* fundoInicio@2x.png in Resources */,
+				A9C39D841EE3009A00419D45 /* fantasminha2@2x.png in Resources */,
+				A9D2647C1F134413006892C0 /* Game Over 01.mp3 in Resources */,
+				A9C39D7E1EE3009A00419D45 /* arvoreBaixo@2x.png in Resources */,
+				A9D264751F113E06006892C0 /* Jump3.mp3 in Resources */,
+				A97C19591F27C44000900912 /* botaoPausa@2x.png in Resources */,
+				A94BF8791F3F5FE0004177EE /* death3@2x.png in Resources */,
+				A94BF8651F3D1DA9004177EE /* morcegoVirado1@2x.png in Resources */,
+				A97C194F1F27B87900900912 /* botaoSair@2x.png in Resources */,
+				A94BF8621F3D1DA9004177EE /* morcegoVirado4@2x.png in Resources */,
+				A9C39D8B1EE3009A00419D45 /* morcego1@2x.png in Resources */,
+				A97C19551F27C16700900912 /* botaoReplay@2x.png in Resources */,
+				A94BF8771F3F5FE0004177EE /* death1@2x.png in Resources */,
+				A9D264741F113E06006892C0 /* Colisao.mp3 in Resources */,
+				A94BF87D1F3F7083004177EE /* botaoPersonagens@2x.png in Resources */,
+				A9C39D861EE3009A00419D45 /* fantasminhaParado@2x.png in Resources */,
+				A9D264781F113E06006892C0 /* somMorde.mp3 in Resources */,
+				A9C39D121EE1F37B00419D45 /* Actions.sks in Resources */,
+				A914716E1F1E7691009853E5 /* somMorcego.mp3 in Resources */,
+				A9D2647E1F134636006892C0 /* somClick.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C39D221EE1F37B00419D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C39D2D1EE1F37B00419D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C39D061EE1F37B00419D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C39D441EE1F43200419D45 /* CenaJogo.swift in Sources */,
+				A9D2647A1F114133006892C0 /* SKTAudio.swift in Sources */,
+				A94BF87B1F3F61CA004177EE /* MenuPersonagens.swift in Sources */,
+				A9C39D161EE1F37B00419D45 /* GameViewController.swift in Sources */,
+				A9C39D0E1EE1F37B00419D45 /* AppDelegate.swift in Sources */,
+				A9C39D421EE1F42000419D45 /* MenuInicio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C39D201EE1F37B00419D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C39D291EE1F37B00419D45 /* FanPixAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C39D2B1EE1F37B00419D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C39D341EE1F37B00419D45 /* FanPixAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9C39D261EE1F37B00419D45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C39D091EE1F37B00419D45 /* FanPixApp */;
+			targetProxy = A9C39D251EE1F37B00419D45 /* PBXContainerItemProxy */;
+		};
+		A9C39D311EE1F37B00419D45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C39D091EE1F37B00419D45 /* FanPixApp */;
+			targetProxy = A9C39D301EE1F37B00419D45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9C39D171EE1F37B00419D45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C39D181EE1F37B00419D45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9C39D1C1EE1F37B00419D45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C39D1D1EE1F37B00419D45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9C39D361EE1F37B00419D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9C39D371EE1F37B00419D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C39D391EE1F37B00419D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2TX86L7J5;
+				INFOPLIST_FILE = FanPixApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnewsoftware.FanPixApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9C39D3A1EE1F37B00419D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2TX86L7J5;
+				INFOPLIST_FILE = FanPixApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnewsoftware.FanPixApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A9C39D3C1EE1F37B00419D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2TX86L7J5;
+				INFOPLIST_FILE = FanPixAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnewsoftware.FanPixAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanPixApp.app/FanPixApp";
+			};
+			name = Debug;
+		};
+		A9C39D3D1EE1F37B00419D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2TX86L7J5;
+				INFOPLIST_FILE = FanPixAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnewsoftware.FanPixAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanPixApp.app/FanPixApp";
+			};
+			name = Release;
+		};
+		A9C39D3F1EE1F37B00419D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H2TX86L7J5;
+				INFOPLIST_FILE = FanPixAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnewsoftware.FanPixAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = FanPixApp;
+			};
+			name = Debug;
+		};
+		A9C39D401EE1F37B00419D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H2TX86L7J5;
+				INFOPLIST_FILE = FanPixAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxnewsoftware.FanPixAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = FanPixApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C39D051EE1F37B00419D45 /* Build configuration list for PBXProject "FanPixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C39D361EE1F37B00419D45 /* Debug */,
+				A9C39D371EE1F37B00419D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C39D381EE1F37B00419D45 /* Build configuration list for PBXNativeTarget "FanPixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C39D391EE1F37B00419D45 /* Debug */,
+				A9C39D3A1EE1F37B00419D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C39D3B1EE1F37B00419D45 /* Build configuration list for PBXNativeTarget "FanPixAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C39D3C1EE1F37B00419D45 /* Debug */,
+				A9C39D3D1EE1F37B00419D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C39D3E1EE1F37B00419D45 /* Build configuration list for PBXNativeTarget "FanPixAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C39D3F1EE1F37B00419D45 /* Debug */,
+				A9C39D401EE1F37B00419D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C39D021EE1F37B00419D45 /* Project object */;
+}
